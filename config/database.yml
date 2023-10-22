@@ -12,3 +12,10 @@ test:
   pool: 5
   username: nikitos
   password: 197524
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: sample_app_db_test
+  pool: 5
+  username: nikitos
+  password: 197524
