@@ -5,7 +5,6 @@ development:
   pool: 5
   username: nikitos
   password: 197524
-  port: 10000
 test:
   adapter: postgresql
   encoding: unicode
@@ -13,7 +12,6 @@ test:
   pool: 5
   username: nikitos
   password: 197524
-  port: 10000
 production:
   adapter: postgresql
   encoding: unicode
