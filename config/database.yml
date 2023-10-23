@@ -1,17 +1,19 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: toy_app
+  database: sample_app_db
   pool: 5
   username: nikitos
   password: 197524
+  port: 10000
 test:
   adapter: postgresql
   encoding: unicode
-  database: toy_apptest
+  database: sample_app_db_test
   pool: 5
   username: nikitos
   password: 197524
+  port: 10000
 production:
   adapter: postgresql
   encoding: unicode
@@ -19,3 +21,4 @@ production:
   pool: 5
   username: nikitos
   password: 197524
+  port: 10000
